@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Polygon fill="#0984e3" layoutX="254.0" layoutY="123.0" points="-262.1049499511719, 44.47511291503906, 427.99993896484375, -123.0, -22.856491088867188, -121.52885437011719" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="204.0" layoutY="29.0" text="Add Customer form" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Polygon fill="#3498db" layoutX="42.0" layoutY="51.0" points="-119.70496368408203, -26.61611557006836, 61.095008850097656, 84.58387756347656, 159.49502563476562, -146.61611938476562" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#192a56" layoutX="82.0" layoutY="82.0" points="-82.61705780029297, 86.78388977050781, 38.695045471191406, 10.383865356445312, -82.61705017089844, -83.32884216308594" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#0528b5" layoutX="152.0" layoutY="91.0" points="-51.304954528808594, 50.98387145996094, 270.782958984375, -26.728836059570312, -32.904991149902344, -1.8161163330078125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#0d3cfa" layoutX="157.0" layoutY="49.0" points="-38.704978942871094, 43.38386535644531, 87.58294677734375, -48.32884216308594, -8.41705322265625, -48.32884216308594" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <CubicCurve controlX1="-44.029361724853516" controlX2="53.81298065185547" controlY1="-151.4412841796875" controlY2="275.3187255859375" endX="134.26040649414062" endY="3.5945112705230713" fill="#2f0cdf" layoutX="121.0" layoutY="134.0" rotate="-16.6" startX="-122.89749145507812" startY="-1.4489076137542725" stroke="BLACK" strokeWidth="0.0" />
+      <JFXButton layoutX="262.0" layoutY="130.0" onAction="#btnAddFormonAciopn" prefHeight="48.0" prefWidth="333.0" style="-fx-background-color: blue;" text="Add Customer Form" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="262.0" layoutY="200.0" onAction="#btnUpdateFormOnAction" prefHeight="48.0" prefWidth="333.0" style="-fx-background-color: blue;" text="Update Customer Form" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="262.0" layoutY="265.0" onAction="#btnViewFormOnAction" prefHeight="48.0" prefWidth="333.0" style="-fx-background-color: blue;" text="View Customer Form" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

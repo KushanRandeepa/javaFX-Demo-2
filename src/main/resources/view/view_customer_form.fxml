@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewCustomerFormController">
+   <children>
+      <Polygon fill="#0984e3" layoutX="271.0" layoutY="123.0" points="-303.50494384765625, 55.38389587402344, 427.99993896484375, -123.0, -14.417022705078125, -123.32884216308594" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="211.0" layoutY="30.0" prefHeight="35.0" prefWidth="239.0" text="View Customer form" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Polygon fill="#3498db" layoutX="52.0" layoutY="61.0" points="-132.5049591064453, -33.016117095947266, 56.295066833496094, 76.58387756347656, 159.49502563476562, -146.61611938476562" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#192a56" layoutX="83.0" layoutY="82.0" points="-82.61705780029297, 86.78388977050781, 38.695045471191406, 10.383865356445312, -82.61705017089844, -83.32884216308594" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#0528b5" layoutX="152.0" layoutY="94.0" points="-69.30496978759766, 54.78388977050781, 270.782958984375, -26.728836059570312, -32.904991149902344, -1.8161163330078125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#0d3cfa" layoutX="169.0" layoutY="48.0" points="-53.50498962402344, 47.98387145996094, 87.58294677734375, -48.32884216308594, -8.41705322265625, -48.32884216308594" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <JFXButton layoutX="425.0" layoutY="118.0" onAction="#btnLoadFormonAciopn" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: brown;" text="Load" textFill="#f4f4f4">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblCustomer" layoutX="28.0" layoutY="178.0" prefHeight="200.0" prefWidth="632.0">
+        <columns>
+          <TableColumn fx:id="colIid" prefWidth="54.39999580383301" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="194.4000015258789" text="Name" />
+            <TableColumn fx:id="colEmail" prefWidth="247.99996948242188" text="email" />
+            <TableColumn fx:id="colSalary" prefWidth="135.19996643066406" text="Salary" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
