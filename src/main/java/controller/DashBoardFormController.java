@@ -13,7 +13,7 @@ public class DashBoardFormController {
 
     @FXML
     void btnAddFormonAciopn(ActionEvent event) {
-
+        System.out.println("uf");
         Stage stage = new Stage();
         try {
             stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/add_customer_form.fxml"))));
